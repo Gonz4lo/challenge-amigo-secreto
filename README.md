@@ -8,15 +8,15 @@ Para este desafío desarrollamos una aplicación que permite a los usuarios ingr
 ![Agregar nombres](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen1.png)  
 
 ⚠️ **Validación:** Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
-![Validar entrada]((https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen2.png) 
+![Validar entrada](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen2.png) 
 
 ⚠️ **Validación Adicional:** Si el campo está vacío, contiene números o caracateres que no corresponden a un nombre, se mostrará una alerta indicando que solo se permiten nombres.
-![Validar vacío]((https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen4.png)  
+![Validar vacío](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen4.png)  
 
 📜 **Visualización de lista:** Los nombres ingresados aparecerán en una lista debajo del campo de entrada.  
 
 🎲 **Sorteo aleatorio:** Al hacer clic en **"Sortear Amigo"**, se seleccionará un nombre aleatorio de la lista y se mostrará en pantalla.  
-![Sorteo]((https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen3.png) 
+![Sorteo](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen3.png) 
 
 ✅ **Limpiar Todo:** Los usuarios luego de una confirmación, el programa limpiara todas las listas y resultados mostrados, solo presionando el botón **"Limpiar Todo"**.  
 ![Limpiar Todo](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen5.png)  
