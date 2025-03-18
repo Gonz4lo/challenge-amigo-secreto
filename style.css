@@ -1,0 +1,213 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b; /* Naranja (para modificar solo si deseas) */
+    --color-button-hover: #e55720;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+    --color-verde: #4CAF50;  /* Verde para Sortear */
+    --color-azul: #007BFF;   /* Azul para el texto del resultado */
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilo para el botón cuando el nombre es válido */
+.button-add.activo {
+    background-color: #4CAF50;  /* Verde cuando es válido */
+    color: white;
+}
+
+/* Estilo por defecto del botón "Añadir" */
+.button-add {
+    background-color: #f44336;  /* Rojo por defecto */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    opacity: 0.8;  /* No cambia el color de fondo al hacer hover */
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Merriweather", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botón */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #05DF05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botón Sortear */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-verde); 
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: #45a049; /* Hover de color verde más oscuro */
+}
+
+/* Botón Limpiar Todo */
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Añadir separación entre botones */
+    margin-top: 20px; /* Separar de la lista */
+}
+
+.button-clear {
+    padding: 10px 20px;
+    background-color: #f44336; /* Rojo para el botón de limpiar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px; /* Ajustar el tamaño del botón */
+}
+
+.button-clear:hover {
+    background-color: #e53935; /* Hover color rojo más oscuro */
+}
+
+.button-draw {
+    width: 200px; /* Ajustar el tamaño del botón */
+    margin: 0 auto; /* Centrar el botón */
+}
+
+/* Resultado */
+.result-list {
+    margin-top: 15px;
+    color: var(--color-azul); 
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
