@@ -1,6 +1,7 @@
 // Array para almacenar los amigos
 let amigos = [];
 
+//Funcion Agregar Amigo
 function agregarAmigo() {
   const amigoInput = document.getElementById("amigo");
   const amigo = amigoInput.value.trim(); // Elimina espacios al principio y al final
@@ -19,6 +20,7 @@ function agregarAmigo() {
   }
 }
 
+//Función Mostrar Amigos
 function mostrarAmigos() {
   const listaAmigos = document.getElementById("listaAmigos");
   listaAmigos.innerHTML = ""; // Limpiar la lista antes de actualizarla
@@ -30,7 +32,7 @@ function mostrarAmigos() {
     listaAmigos.appendChild(li); // Añadir el nombre a la lista HTML
   });
 }
-
+//Función Verificar Nombres
 function verificarNombre() {
   const nombreInput = document.getElementById("amigo");
   const botonAñadir = document.getElementById("botonAñadir");
@@ -43,6 +45,7 @@ function verificarNombre() {
   }
 }
 
+//Función Sortear Amigo
 function sortearAmigo() {
   if (amigos.length === 0) {
     alert("¡Aún no has agregado a ningún amigo! Por favor, agrega uno antes de hacer el sorteo.");
