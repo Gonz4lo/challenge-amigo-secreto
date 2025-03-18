@@ -11,6 +11,7 @@ Para este desafío desarrollamos una aplicación que permite a los usuarios ingr
 ![Validar entrada](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen2.png) 
 
 ⚠️ **Validación Adicional:** Si el campo está vacío, se mostrará una alerta indicando que solo se permiten nombres.
+
 📜 **Visualización de lista:** Los nombres ingresados aparecerán en una lista debajo del campo de entrada.  
 ![Validar vacío](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen4.png)  
 
