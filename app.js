@@ -1,12 +1,12 @@
 // Array para almacenar los amigos
 let amigos = [];
 
-//Funcion Agregar Amigo
+//Funcion Agregar Amigos
 function agregarAmigo() {
   const amigoInput = document.getElementById("amigo");
   const amigo = amigoInput.value.trim(); // Elimina espacios al principio y al final
 
-  // Validaciones
+  //Validaciones
   if (amigo === "") {
     alert("¡Por favor, ingresa un nombre para tu amigo secreto!");
   } else if (!/^[a-zA-Z\s]+$/.test(amigo)) {
@@ -32,6 +32,7 @@ function mostrarAmigos() {
     listaAmigos.appendChild(li); // Añadir el nombre a la lista HTML
   });
 }
+
 //Función Verificar Nombres
 function verificarNombre() {
   const nombreInput = document.getElementById("amigo");
@@ -72,7 +73,7 @@ function limpiarTodo() {
   botonAñadir.classList.remove('activo');
 }
 
-// Función de confirmación para limpiar todo
+//Función de confirmación para limpiar todo
 function confirmarLimpiar() {
   const confirmar = confirm("¿Estás seguro de que deseas borrar todo?");
   if (confirmar) {

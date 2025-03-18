@@ -41,7 +41,7 @@ body {
     padding: 40px 0 0;
 }
 
-/* Sección de entrada */
+/*Sección de entrada*/
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
@@ -54,7 +54,7 @@ body {
     width: 100%;
 }
 
-/* Títulos */
+/*Títulos*/
 .main-title {
     font-size: 48px;
     font-family: "Merriweather", serif;
@@ -72,7 +72,7 @@ body {
     text-align: center;
 }
 
-/* Contenedores de entrada y botón */
+/*Contenedores de entrada y botón*/
 .input-wrapper {
     display: flex;
     justify-content: center;
@@ -203,7 +203,7 @@ ul {
     margin: 0 auto; /* Centrar el botón */
 }
 
-/* Resultado */
+/*Resultado*/
 .result-list {
     margin-top: 15px;
     color: var(--color-azul); 
