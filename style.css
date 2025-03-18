@@ -2,12 +2,12 @@
     --color-primary: #4B69FD;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b; /* Naranja (para modificar solo si deseas) */
+    --color-button: #fe652b; /*Naranja (para modificar solo si deseas)*/
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
-    --color-verde: #4CAF50;  /* Verde para Sortear */
-    --color-azul: #007BFF;   /* Azul para el texto del resultado */
+    --color-verde: #4CAF50;  /*Verde para Sortear*/
+    --color-azul: #007BFF;   /*Azul para el texto del resultado*/
 }
 
 /* Estilos generales */
