@@ -56,16 +56,16 @@ function sortearAmigo() {
   }
 }
 
-// Función para limpiar todos los datos
+//Función para limpiar todos los datos
 function limpiarTodo() {
-  // Limpiar el array de amigos
+  //Limpiar el array de amigos
   amigos = [];
   
-  // Limpiar las listas de amigos y resultado en el HTML
+  //Limpiar las listas de amigos y resultado en el HTML
   document.getElementById("listaAmigos").innerHTML = "";
   document.getElementById("resultado").textContent = "";
   
-  // Limpiar el campo de entrada
+  //Limpiar el campo de entrada
   document.getElementById("amigo").value = "";
   
   // Cambiar el color del botón a su estado original

@@ -22,6 +22,7 @@ Para este desafío desarrollamos una aplicación que permite a los usuarios ingr
 ![Limpiar Todo](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen5.png)  
 
 ## 🛠️ Tecnologías Utilizadas  
+
 - HTML  
 - CSS  
 - JavaScript  

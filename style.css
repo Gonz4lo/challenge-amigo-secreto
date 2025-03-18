@@ -94,13 +94,13 @@ body {
     justify-content: center;
 }
 
-/* Estilo para el botón cuando el nombre es válido */
+/*Estilo para el botón cuando el nombre es válido*/
 .button-add.activo {
-    background-color: #4CAF50;  /* Verde cuando es válido */
+    background-color: #4CAF50;  /* Verde cuando es válido*/
     color: white;
 }
 
-/* Estilo por defecto del botón "Añadir" */
+/*Estilo por defecto del botón "Añadir"*/
 .button-add {
     background-color: #f44336;  /* Rojo por defecto */
     color: white;
@@ -111,10 +111,10 @@ body {
 }
 
 .button-add:hover {
-    opacity: 0.8;  /* No cambia el color de fondo al hacer hover */
+    opacity: 0.8;  /*No cambia el color de fondo al hacer hover*/
 }
 
-/* Estilos de entrada de texto */
+/*Estilos de entrada de texto*/
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -126,7 +126,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos de botón */
+/*Estilos de botón*/
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
