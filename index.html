@@ -16,14 +16,16 @@
             <h1 class="main-title">Amigo Secreto</h1>
             <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
         </header>
-        
+
+        <!-- Agregar Amigos-->
         <section class="input-section">
             <h2 class="section-title">Digite el nombre de sus amigos</h2>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre" oninput="verificarNombre()">
                 <button class="button-add" id="botonAñadir" onclick="agregarAmigo()">Añadir</button>
             </div>
-           
+            
+           <!-- Mostrar Lista de Amigos-->
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
