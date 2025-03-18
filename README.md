@@ -11,9 +11,8 @@ Para este desafío desarrollamos una aplicación que permite a los usuarios ingr
 ![Validar entrada](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen2.png) 
 
 ⚠️ **Validación Adicional:** Si el campo está vacío, se mostrará una alerta indicando que solo se permiten nombres.
-![Validar vacío](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen4.png)  
-
 📜 **Visualización de lista:** Los nombres ingresados aparecerán en una lista debajo del campo de entrada.  
+![Validar vacío](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen4.png)  
 
 🎲 **Sorteo aleatorio:** Al hacer clic en **"Sortear Amigo"**, se seleccionará un nombre aleatorio de la lista y se mostrará en pantalla.  
 ![Sorteo](https://github.com/Gonz4lo/challenge-amigo-secreto/blob/main/assets/imagen3.png) 
